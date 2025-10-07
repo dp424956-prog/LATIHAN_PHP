@@ -1,0 +1,18 @@
+<?php
+
+$punakawan = array("Semar", "Gareng", "Petruk", "Bagong");
+
+echo $punakawan[0]; // Hasilnya: Semar
+echo "<br>";       // Perintah ini untuk membuat baris baru (enter)
+echo $punakawan[3]; // Hasilnya: Bagong
+
+// Kode di bawah ini adalah contoh lain, bukan penyebab error
+$punakawan[1]="Semar";
+$punakawan[2]="Gareng";
+$punakawan[3]="Petruk";
+$punakawan[4]="Bagong";
+
+echo "<br>";
+echo $punakawan[3]; // Hasilnya: Petruk
+
+?>
